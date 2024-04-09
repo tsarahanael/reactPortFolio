@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const FooterApp = () => {
   return (
-    <Footer container className="dark:bg-darkTer">
+    <Footer container className="dark:bg-darkTer bg-lightTer">
       <div className="w-full text-center">
         <Footer.Brand
           src="../public/images/logo.png"
@@ -22,10 +22,10 @@ const FooterApp = () => {
           </Footer.LinkGroup>
         </div>
         <Footer.Divider />
-        <Footer.Copyright href="#" by="Flowbite™" year={2022} />
-        <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-          <Footer.Icon href="https://www.linkedin.com/in/sarah-tsangou-858a45198/" icon={BsLinkedin} />
-          <Footer.Icon href="https://github.com/tsarahanael" icon={BsGithub} />
+        <Footer.Copyright href="#" by="Flowbite™" year={2022} className="text-lightPri  dark:text-darkPri"/>
+        <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center ">
+          <Footer.Icon href="https://www.linkedin.com/in/sarah-tsangou-858a45198/" icon={BsLinkedin} className="text-lightPri  dark:text-darkPri dark:hover:bg-darkSec hover:bg-lightSec mx-2"/>
+          <Footer.Icon href="https://github.com/tsarahanael" icon={BsGithub} className="text-lightPri  dark:text-darkPri"/>
         </div>
       </div>
     </Footer>
