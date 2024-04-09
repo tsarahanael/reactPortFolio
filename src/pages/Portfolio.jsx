@@ -25,41 +25,55 @@ const Portfolio = () => {
       pb-20
       "
       >
+        <a href="portfolio/fashion/index.html">
+          <img
+            className="hover:scale-125 transition duration-500"
+            src="images/project-fashion.jpg"
+            alt="Fashion web page project"
 
-        <img
-          className="hover:scale-125 transition duration-500"
-          src="../public/images/project-fashion.jpg"
-          alt="Fashion web page project"
-        />
-        <img
-          className="hover:scale-125 transition duration-500"
-          src="../public/images/project-smoothie.jpg"
-          alt="Smoothie web page project"
-        />
+          />
+        </a>
 
-        <img
-          className="hover:scale-125 transition duration-500"
-          src="../public/images/project-crypto-wallet.jpg"
-          alt="Crypto wallet web page project"
-        />
+        <a href="portfolio/smoothies/index.html">
+          <img
+            className="hover:scale-125 transition duration-500"
+            src="images/project-smoothie.jpg"
+            alt="Smoothie web page project"
+          />
+        </a>
 
-        <img
-          className="hover:scale-125 transition duration-500"
-          src="../public/images/project-hero.png"
-          alt="Hero blocks web page project"
-        />
+        <a href="portfolio/crypto-wallet/index.html">
+          <img
+            className="hover:scale-125 transition duration-500"
+            src="images/project-crypto-wallet.jpg"
+            alt="Crypto wallet web page project"
+          />
+        </a>
 
-        <img
-          className="hover:scale-125 transition duration-500"
-          src="../public/images/project-multi-col.png"
-          alt="Multi-column web page project"
-        />
+        <a href="portfolio/poject-hero/index1.html">
+          <img
+            className="hover:scale-125 transition duration-500"
+            src="images/project-hero.png"
+            alt="Hero blocks web page project"
+          />
+        </a>
 
-        <img
-          className="hover:scale-125 transition duration-500"
-          src="../public/images/store.png"
-          alt="Amazon affiliate web page project"
-        />
+        <a href="portfolio/poject-multi-column/index.html">
+          <img
+            className="hover:scale-125 transition duration-500"
+            src="images/project-multi-col.png"
+            alt="Multi-column web page project"
+          />
+        </a>
+
+        <a href="portfolio/store/index.html">
+          <img
+            className="hover:scale-125 transition duration-500"
+            src="images/store.png"
+            alt="Amazon affiliate web page project"
+          />
+        </a>
+
       </section>
     </>
   );

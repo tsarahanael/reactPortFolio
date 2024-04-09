@@ -9,7 +9,7 @@ const Contact = () => {
           Contact page
         </h2>
         <p
-          className="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-white text-black"
+          className="max-w-2xl mb-6 font-normal text-black lg:mb-8 md:text-lg lg:text-xl dark:text-white text-black"
         >
           Have a project you would like to discuss? Let's make something great together! Email me at
           <a className="dark:text-darkFour text-lightFour" href="mailto:tsarahanael@gmail.com?subject=Mail from my Personal Website"> tsarahanael@gmail.com </a>
