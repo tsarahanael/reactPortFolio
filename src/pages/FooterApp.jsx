@@ -7,7 +7,7 @@ const FooterApp = () => {
     <Footer container className="dark:bg-darkTer bg-lightTer">
       <div className="w-full text-center">
         <Footer.Brand
-          src="../public/images/logo.png"
+          src="images/logo.png"
           alt="Sample website logo"
           href="#"
           width={300} 
