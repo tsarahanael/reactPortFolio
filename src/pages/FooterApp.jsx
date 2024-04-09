@@ -24,8 +24,8 @@ const FooterApp = () => {
         <Footer.Divider />
         <Footer.Copyright href="#" by="Flowbite™" year={2022} className="text-lightPri  dark:text-darkPri"/>
         <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center ">
-          <Footer.Icon href="https://www.linkedin.com/in/sarah-tsangou-858a45198/" icon={BsLinkedin} className="text-lightPri  dark:text-darkPri dark:hover:bg-darkSec hover:bg-lightSec mx-2"/>
-          <Footer.Icon href="https://github.com/tsarahanael" icon={BsGithub} className="text-lightPri  dark:text-darkPri"/>
+          <Footer.Icon href="https://www.linkedin.com/in/sarah-tsangou-858a45198/" icon={BsLinkedin} className="text-lightPri  dark:text-darkPri dark:hover:bg-darkSec hover:bg-lightSec mx-2 "/>
+          <Footer.Icon href="https://github.com/tsarahanael" icon={BsGithub} className="text-lightPri  dark:text-darkPri dark:hover:bg-darkSec hover:bg-lightSec mx-2 "/>
         </div>
       </div>
     </Footer>
