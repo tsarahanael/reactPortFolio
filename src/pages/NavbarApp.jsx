@@ -25,12 +25,12 @@ function NavbarApp() {
       </div>
       <Navbar.Collapse>
         <Navbar.Link>
-          <Link to="#" active>
+          <Link to="./" active>
             Home
           </Link>
         </Navbar.Link>
         <Navbar.Link>
-          <Link to="#/portfolio">Portfolio</Link>
+          <Link to="./portfolio">Portfolio</Link>
         </Navbar.Link>
         
       </Navbar.Collapse>
